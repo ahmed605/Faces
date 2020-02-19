@@ -91,9 +91,9 @@ class FaceAppImage(object):
             elif url:
                 file = requests.get(url).content
  
-            with open('2.jpg', 'wb') as f:
-                f.write(file)
-            file = open('2.jpg', 'rb')
+            #with open('2.jpg', 'wb') as f:
+                #f.write(file)
+            #file = open('2.jpg', 'rb')
  
             post = requests.post(BASE_API_URL, headers=headers, files={'file': file})
             code = str(post.headers)
