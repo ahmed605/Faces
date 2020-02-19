@@ -7,7 +7,7 @@ import faces
 
 
 class FacesTest(unittest.TestCase):
-    def setUp(self):
+    def testURL(self):
         with open('tests/Roosevelt.jpg', 'rb') as valid_image:
             self.image_by_file = faces.FaceAppImage(file=valid_image)
 
