@@ -20,7 +20,7 @@ setup(
     long_description=readme + '\n\n' + history,
     author="Vasily Sinitsin",
     author_email='vasilysinitsin@protonmail.com',
-    url='https://github.com/vasilysinitsin/faces',
+    url='https://github.com/ahmed605/faces',
     packages=[
         'faces',
     ],
